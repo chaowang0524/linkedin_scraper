@@ -4,7 +4,7 @@ This is the linkedin job scraper for the DS class mini-project idea (analyzing t
 
 ### About scarper.ipynb:
 
-The scraper is able to extract information including "company", "job title", "location", "industry", "posting language", "required working language" and so on. If we decide to proceed, we can extract more necessary information such as salary.
+The scraper is able to extract information including "company", "job title", "job level", "location", "employment type", "job function", "industry", "posting language", "required working language" and so on. If we decide to proceed, we can extract more necessary information such as salary.
 
 The scraper will first generate a list of job IDs "jobid.txt" and then remove the duplicates (which needs further work if necessary) so we have "jobid_cleaned.txt"
 
