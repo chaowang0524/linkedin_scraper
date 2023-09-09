@@ -1,6 +1,6 @@
 # linkedin job scraper
 
-This is the linkedin job scraper for the DS class mini-project idea (analyzing the language requirement of the posted jobs located in Finland on Linkedin).
+This is the LinkedIn job scraper for the DS class mini-project idea: Analyzing the language requirement of the posted jobs located in Finland on Linkedin - still trying to figure out what is the specific problem for us using these data to solve :)
 
 ### About scarper.ipynb:
 
