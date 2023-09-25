@@ -1,6 +1,6 @@
 # linkedin job scraper
 
-This is the LinkedIn job scraper to scrape job information on the Finnish Job Market.
+This is the LinkedIn job scraper to scrape job information on the Finnish job market.
 
 ### About scarper.ipynb:
 
@@ -14,4 +14,6 @@ In the end, the dictionary will be converted into "result.csv" for further analy
 
 <img width="2364" alt="Screenshot 2023-09-09 at 16 34 26" src="https://github.com/chaowang0524/linkedin_scraper/assets/85655614/76a13d22-cb6b-43d9-9d70-a8d14bbb6a8d">
 
-### TODO: Considering to add the salary info to predict the salary in future.
+### TODO: 
+1. Considering to add the salary info to predict the salary in future.
+2. Considering to scrape job information related to AI/NLP/ML/DS on EU and UK job market and analyse.
