@@ -10,9 +10,17 @@ The scraper will first generate a list of job IDs "jobid.txt" and then remove th
 
 Then it will print the raw information in the dictionary to the file "rawinfo.txt".
 
-In the end, the dictionary will be converted into "result.csv" for further analysis and visualization.
+The hard coded information such as "company", "job title", "job level" etc., will be retrieved from html data.
 
 <img width="2364" alt="Screenshot 2023-09-09 at 16 34 26" src="https://github.com/chaowang0524/linkedin_scraper/assets/85655614/76a13d22-cb6b-43d9-9d70-a8d14bbb6a8d">
+
+### Update on 05-Oct:
+
+The analyser will send the content in "Job Description" block to ChatGPT API to analyze the information including "Skill Required", "Language Requirement", "Start time and duration" and "Salary"
+
+In the end, the dictionary will be converted into "result.csv" for further analysis and visualization.
+
+
 
 ### TODO: 
 1. Considering to add the salary info to predict the salary in future.
