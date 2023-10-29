@@ -1,6 +1,6 @@
 # linkedin job scraper
 
-This is the LinkedIn job scraper to scrape job information on the Finnish job market.
+This is the LinkedIn job scraper to scrape the job information on LinkedIn page.
 
 ### About scarper.ipynb:
 
@@ -12,14 +12,17 @@ Then it will print the raw information in the dictionary to the file "rawinfo.tx
 
 The hard coded information such as "company", "job title", "job level" etc., will be retrieved from html data.
 
+
+
 <img width="2364" alt="Screenshot 2023-09-09 at 16 34 26" src="https://github.com/chaowang0524/linkedin_scraper/assets/85655614/76a13d22-cb6b-43d9-9d70-a8d14bbb6a8d">
 
 ### Update on 05-Oct:
 
+Currently, the analyser is looking for jobs with keyword "Natural Language Processing" in "European Union", and the keyword is changable anytime.
+
 The analyser will send the content in "Job Description" block to ChatGPT API to analyze the information including "Skill Required", "Language Requirement", "Start time and duration" and "Salary"
 
 In the end, the dictionary will be converted into "result.csv" for further analysis and visualization.
-
 
 
 ### TODO: 
